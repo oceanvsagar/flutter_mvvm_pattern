@@ -1,0 +1,79 @@
+{
+  FontWeight.w100: 'Thin',
+  FontWeight.w200: 'ExtraLight',
+  FontWeight.w300: 'Light',
+  FontWeight.w400: 'Regular',
+  FontWeight.w500: 'Medium',
+  FontWeight.w600: 'SemiBold',
+  FontWeight.w700: 'Bold',
+  FontWeight.w800: 'ExtraBold',
+  FontWeight.w900: 'Black',
+}
+
+Column(
+      children: [
+        const SizedBox(
+          height: 50,
+        ),
+        Text(
+          "Roboto",
+          style: GoogleFonts.roboto(fontSize: 30),
+        ),
+        Text(
+          "Roboto thin",
+          style: GoogleFonts.roboto(fontSize: 30,
+          fontWeight: FontWeight.w100),
+        ),
+
+        Text(
+          "Roboto extra light",
+          style: GoogleFonts.roboto(fontSize: 30,
+              fontWeight: FontWeight.w200),
+        ),
+
+        Text(
+          "Roboto light",
+          style: GoogleFonts.roboto(fontSize: 30,
+              fontWeight: FontWeight.w300),
+        ),
+
+        Text(
+          "Roboto regular",
+          style: GoogleFonts.roboto(fontSize: 30,
+              fontWeight: FontWeight.w400),
+        ),
+
+        Text(
+          "Roboto medium",
+          style: GoogleFonts.roboto(fontSize: 30,
+              fontWeight: FontWeight.w500),
+        ),
+
+        Text(
+          "Roboto semi bold",
+          style: GoogleFonts.roboto(fontSize: 30,
+              fontWeight: FontWeight.w600),
+        ),
+        Text(
+          "Roboto bold",
+          style: GoogleFonts.roboto(fontSize: 30,
+              fontWeight: FontWeight.w700),
+        ),
+        Text(
+          "Roboto extra bold",
+          style: GoogleFonts.roboto(fontSize: 30,
+              fontWeight: FontWeight.w800),
+        ),
+        Text(
+          "Roboto black",
+          style: GoogleFonts.roboto(fontSize: 30,
+              fontWeight: FontWeight.w900),
+        ),
+
+        Text(
+          "Roboto condensed",
+          style: GoogleFonts.robotoCondensed(fontSize: 30,
+              fontWeight: FontWeight.w300),
+        ),
+      ],
+    );
